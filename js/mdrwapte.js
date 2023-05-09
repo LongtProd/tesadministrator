@@ -4,7 +4,7 @@ function loadallposts() { //load post from server
 	var bzo7ogo = "bzo7ogo";
     $.ajax({
 		type: "POST",
-		url: "./pesavintin/", 
+		url: "https://bastestquest.000webhostapp.com/pesavintin/", 
 		dataType: "json",
 		data: {bzo7ogo: bzo7ogo},
 		success: function(FindInvites){	
@@ -35,7 +35,7 @@ function loadallposts() { //load post from server
 			JQE += '</td>'; 
 			JQE +='<td><div class="gifthd">'+item.gift+'</div> <br><br> <b>Date Created.</b><br> '+item.created+'</td>'+
 			'<td>'+item.linkused+'</td>'+
-			'<td><div class="giftstd"  id="iv'+item.comcast+'">http://localhost/projects/spinandwin/#'+item.ivlink+'</div></td>'+
+			'<td><div class="giftstd"  id="iv'+item.comcast+'">https://teslagiftproject.pages.dev/#'+item.ivlink+'</div></td>'+
 			
 			'<td> <i class="fa fa-edit dtableaction text-warning" id="edit'+item.comcast+'"></i> <i class="fa fa-eye dtableaction text-danger" id="view'+item.comcast+'"></i> </td>'+
 			// '<td> <button type="button" class="btn btn-primary" id="view'+item.pcc+'">View</button> </td>'+
@@ -94,7 +94,7 @@ function awardlookers(params) {
     if (bo345u33.length > 0){
         $.ajax({
             type: "POST",
-            url: "./pesavintin/", 
+            url: "https://bastestquest.000webhostapp.com/pesavintin/", 
             dataType: "json",
             data: {bo345u33: bo345u33},
             success: function(AwardWinner){	
@@ -210,7 +210,7 @@ function createteslalink(){
 	
 	$.ajax({
 		type: "POST",
-		url: "./pesavintin/", 
+		url: "https://bastestquest.000webhostapp.com/pesavintin/", 
 		dataType: "json",
 		data: {invite: invite, gift: gift, giftbox: giftbox },
 		success: function(data){

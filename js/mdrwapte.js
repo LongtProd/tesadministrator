@@ -88,7 +88,7 @@ function giftlinkcrop(params) {
 }
 function awardlookers(params) {
     $("#modalIm").modal('show');
-    document.getElementById("mefbody").innerHTML = `<h3>Please Wait.../h3>`;
+    document.getElementById("mefbody").innerHTML = `<h3>Please Wait...</h3>`;
     var manofthegift = "";
     var bo345u33 = params;
     if (bo345u33.length > 0){
@@ -190,14 +190,14 @@ function createteslalink(){
 
 
         var giftreach = [
-            {"wrapcode":"4996","wrapgift": "Try Again"},
+            {"wrapcode":"4996","wrapgift": "Tesla Stock (TSLA)"},
             {"wrapcode":"5040","wrapgift": "Model X"},
             {"wrapcode":"5084","wrapgift": "Model Y"},
             {"wrapcode":"5128","wrapgift": "Invite Link"},
             {"wrapcode":"5174","wrapgift": "Model S"},
             {"wrapcode":"5218","wrapgift": "Model 3"},
             {"wrapcode":"5264","wrapgift": "Try Again"},
-            {"wrapcode":"5310","wrapgift": "Model S"}
+            {"wrapcode":"5310","wrapgift": "Dodge Coin (DOGE)"}
           ];
     
           giftreach.forEach(item => {
